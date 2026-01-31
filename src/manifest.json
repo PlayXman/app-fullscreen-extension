@@ -1,20 +1,20 @@
 {
   "name": "Display in fullscreen",
-  "description": "Allows to open any website in fullscreen. Useful for hiding the address bar on all the web tools.",
+  "description": "Mobile browser extension allowing to open any website in fullscreen. Useful for hiding the address bar on all the web tools.",
   "manifest_version": 3,
-  "version": "1.0",
+  "version": "0.0.1",
   "icons": {
     "48": "icons/extension-48.png"
   },
   "homepage_url": "https://github.com/PlayXman/app-fullscreen-extension",
-
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
   "permissions": [
     "tabs"
   ],
-
   "browser_action": {
     "default_icon": {
       "16": "icons/btn-16.png",
