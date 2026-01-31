@@ -32,7 +32,7 @@ async function updateManifest() {
   manifest.description = packageJson.description;
   manifest.homepage_url = packageJson.homepage;
 
-  await fsp.writeFile(manifestPath, JSON.stringify(manifest), "utf8");
+  await fsp.writeFile(manifestPath, JSON.stringify(manifest, null, 2), "utf8");
 
   console.log("✨ Manifest has been updated");
 }

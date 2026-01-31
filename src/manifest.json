@@ -1,7 +1,7 @@
 {
+  "manifest_version": 3,
   "name": "Display in fullscreen",
   "description": "Mobile browser extension allowing to open any website in fullscreen. Useful for hiding the address bar on all the web tools.",
-  "manifest_version": 3,
   "version": "0.0.1",
   "icons": {
     "48": "icons/extension-48.png"
@@ -13,9 +13,10 @@
     ]
   },
   "permissions": [
-    "tabs"
+    "activeTab",
+    "scripting"
   ],
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icons/btn-16.png",
       "32": "icons/btn-32.png"
