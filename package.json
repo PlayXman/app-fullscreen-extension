@@ -1,0 +1,20 @@
+{
+  "name": "app-fullscreen-extension",
+  "version": "0.0.1",
+  "homepage": "https://github.com/PlayXman/app-fullscreen-extension",
+  "description": "Mobile browser extension allowing to open any website in fullscreen. Useful for hiding the address bar on all the web tools.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PlayXman/app-fullscreen-extension.git"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "generate": "node task-generate.js"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "del": "^8.0.1"
+  }
+}
